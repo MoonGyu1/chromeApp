@@ -1,14 +1,22 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+// If there's no Object
+const playerName = "gyuwon";
+const playerPoints = 121212;
+const playerHandsome = true;
+const playerFat = "little bit";
 
-// Get Item from Array
-console.log(daysOfWeek);
+// Object
+const player = {
+    name: "gyuwon",
+    points: 10,
+    fat: false,
+};
 
-// Add one more day to the array
-daysOfWeek.push("sun")
+console.log(player);
 
-console.log(daysOfWeek);
+// Add new property
+player.lastName = "potato";
 
-const toBuy = ["potato", "tomato", "pizza"];
-toBuy.push("kimbab");
+// Update value
+player.points = player.points + 15;
 
-console.log(toBuy[2]);
+console.log(player);
