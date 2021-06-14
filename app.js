@@ -1,22 +1,20 @@
-// If there's no Object
-const playerName = "gyuwon";
-const playerPoints = 121212;
-const playerHandsome = true;
-const playerFat = "little bit";
+function plus(a, b) {
+    console.log(a + b);
+}
 
-// Object
+function divide(a, b){
+    console.log(a/b);
+}
+
+divide(98, 20);
+plus(8, 60);
+
 const player = {
     name: "gyuwon",
-    points: 10,
-    fat: false,
+    sayHello: function(otherPersonsName){
+        console.log("hello " + otherPersonsName + " nice to meet you!");
+    },
 };
 
-console.log(player);
-
-// Add new property
-player.lastName = "potato";
-
-// Update value
-player.points = player.points + 15;
-
-console.log(player);
+player.sayHello("lynn");
+player.sayHello("nico");
