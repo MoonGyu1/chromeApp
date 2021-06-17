@@ -1,0 +1,13 @@
+#weather span:first-child{
+    color:whitesmoke;
+    position:fixed;
+    top:20px;
+    right: 20px;
+}
+
+#weather span:last-child{
+    color:whitesmoke;
+    position:fixed;
+    top:40px;
+    right: 20px;
+}

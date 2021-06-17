@@ -1,0 +1,16 @@
+#quote {
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    position: absolute;
+    width:100%;
+    bottom: 0%;
+}
+
+#quote span:first-child {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#quote span:last-child {
+    line-height: 40px;
+}

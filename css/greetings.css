@@ -1,0 +1,9 @@
+#greeting{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family:sans-serif;
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,10 +1,10 @@
 const quotes = [
     {
-        quote: "Whenever you are asked if you can do a job, tell 'em, 'Certainly I can!' Then get busy and find out how to do it.",
+        quote: "Whenever you are asked if you can do a job, \ntell 'em, 'Certainly I can!' \nThen get busy and find out how to do it.",
         author: "Theodore Roosevelt",
     },
     {
-        quote: "Learning without thought is labor lost; thought without learning is perilous.",
+        quote: "Learning without thought is labor lost; \nthought without learning is perilous.",
         author: "Confucius",
     },
     {
@@ -20,7 +20,7 @@ const quotes = [
         author: "Thomas A. Edison",
     },
     {
-        quote: "We improve ourselves by victories over ourself. There must be contests, and you must win.",
+        quote: "We improve ourselves by victories over ourself. \nThere must be contests, and you must win.",
         author: "Edward Gibbon",
     },
     {
@@ -46,4 +46,4 @@ const author = document.querySelector("#quote span:last-child");
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
-author.innerText = todaysQuote.author;
+author.innerText = "- " + todaysQuote.author;

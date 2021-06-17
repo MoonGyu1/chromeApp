@@ -1,0 +1,27 @@
+.bgImage{
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+    animation-duration: 3s;
+    animation-name: fadein; 
+}
+
+body{
+    animation-duration: 3s;
+    animation-name: fadein; 
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
