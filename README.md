@@ -10,16 +10,16 @@
   
 
 - ### Features
-  #### 1. backgrounds
+  #### 1. Backgrounds
   When refresh the page, get random background images.
-  #### 2. greeting
+  #### 2. Greeting
   make greeting expressions according to the current time.
-  #### 3. clock
+  #### 3. Clock
   show current timne every second.
-  #### 4. quotes
+  #### 4. Quotes
   When refresh the page, get random quotes.
-  #### 5. todo list
+  #### 5. To-do list
   can create to-do list and delete the element of it.
-  #### 6. weather
+  #### 6. Weather
   show real-time location and weather.
 
